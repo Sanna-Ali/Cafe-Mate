@@ -1,0 +1,38 @@
+{
+  "name": "laundry---backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "express-session": "^1.18.0",
+    "extend": "^3.0.2",
+    "fs": "^0.0.1-security",
+    "html-pdf": "^3.0.1",
+    "joi": "^17.10.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.12.0",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.7",
+    "passport": "^0.7.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-google-oidc": "^0.1.0",
+    "passport-oauth2": "^1.8.0",
+    "path": "^0.12.7",
+    "uuid": "^11.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node app.js"
+  },
+  "author": "Ahmad Sliman && Sanna Ali",
+  "license": "ISC"
+}
