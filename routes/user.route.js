@@ -1,4 +1,3 @@
-//6
 const router = require("express").Router();
 const express = require("express");
 const connection = require("../config/DB");
