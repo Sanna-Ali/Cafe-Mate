@@ -9,7 +9,7 @@ const {
   getProductCategory,
   deleteProduct,
   updateProduct,
-} = require("../controllers/product");
+} = require("../controllers/product.controller.js");
 
 router.post("/add", authenticateToken, checkRole, addProduct);
 
