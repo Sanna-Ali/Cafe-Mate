@@ -7,7 +7,7 @@ const {
   addCategory,
   getCategory,
   updateCategory,
-} = require("../controllers/category");
+} = require("../controllers/category.controller.js");
 
 router.post("/add", authenticateToken, checkRole, addCategory);
 
