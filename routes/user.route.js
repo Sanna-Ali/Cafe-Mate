@@ -12,7 +12,7 @@ const {
   updateStatus,
   update,
   deleteUser,
-} = require("../controllers/user");
+} = require("../controllers/user.controller.js");
 require("dotenv").config();
 //const connectToDb = require("./config/DB");
 
