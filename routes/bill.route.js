@@ -14,7 +14,7 @@ const {
   generateReport,
   getBills,
   deleteBill,
-} = require("../controllers/bill");
+} = require("../controllers/bill.controller.js");
 
 router.post("/generateReport", authenticateToken, generateReport);
 router.post("/getPdf", authenticateToken, getPdf);
