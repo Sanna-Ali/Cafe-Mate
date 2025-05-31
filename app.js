@@ -1,11 +1,11 @@
 const express = require("express");
 require("dotenv").config();
 //const { connection } = require("./config/DB");
-const userRouter = require("./routes/user");
-const categoryRouter = require("./routes/category");
-const productRouter = require("./routes/product");
-const billRoute = require("./routes/bill");
-const dashpord = require("./routes/dashboard");
+const userRouter = require("./routes/user.route.js");
+const categoryRouter = require("./routes/category.route.js");
+const productRouter = require("./routes/product.route.js");
+const billRoute = require("./routes/bill.route.js");
+const dashpord = require("./routes/dashboard.route.js");
 //const { errorHandler, notFound } = require("./middlewares/error");
 //const cookieParser = require("cookie-parser");
 var bodyParser = require("body-parser");
